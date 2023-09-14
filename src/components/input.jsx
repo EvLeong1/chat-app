@@ -1,9 +1,11 @@
 import React from 'react'
 
-export const input = () => {
+export const Input = () => {
   return (
-    <div>input</div>
+    <div className='h-[4rem] bg-white p-[0.625rem] flex items-center'>
+      Input
+    </div>
   )
 }
 
-export default input
+export default Input
