@@ -1,0 +1,17 @@
+.message {
+    &.owner{
+      flex-direction: row-reverse;
+        .msgContent{
+
+            align-items: flex-end;
+
+            p{
+                background-color: #e66969;
+                color:white;
+                border-radius: 10px 0px 10px 10px;
+              }
+        }
+      
+    }
+  
+  }
