@@ -90,7 +90,7 @@ export const Input = () => {
           <label htmlFor="file" className='cursor-pointer'>
             <img src={imgSource} alt="" className='h-[2rem] w-[2rem] cursor-pointer  p-1 bg-red-300 rounded-lg'/>
           </label>
-          <button  type='submit' onSubmit={handleSend} className='p-1 bg-green-400 rounded-lg text-white font-bold' >Send</button>
+          <button  onClick={handleSend} className='p-1 bg-green-400 rounded-lg text-white font-bold' >Send</button>
         </div>
     </div>
   )
